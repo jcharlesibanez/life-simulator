@@ -23,11 +23,7 @@ const App = () => {
   ];
 
   const logEntries = [
-    { time: "8:00 PM", title: "Edwin Mccartney invited you to a party", icon: "0" },
-    { time: "7:00 PM", title: "Jeronimo Hubertine called you", icon: "" },
-    { time: "6:00 PM", title: "Hang out with Jeronimo Hubertine", icon: "" },
-    { time: "5:00 PM", title: "Intellectual Conversation", icon: "*" },
-    { time: "4:00 PM", title: "Ran one mile", icon: "" },
+    
   ];
 
   const initialName = () => localStorage.getItem("lifeSimAlias") || "";
